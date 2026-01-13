@@ -1,0 +1,91 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+.sky,.grass,.footpath,.road{
+  position: relative;  
+}
+.sky{
+    height: 20%;
+    background-color: skyblue;
+
+}
+.grass{
+    height: 20%;
+    background-color: rgb(46, 176, 46);
+}
+.footpath{
+height: 20%;
+background-color: rgb(207, 138, 47);
+box-sizing: border-box;
+border-top: 10px solid rgb(233, 177, 72);
+border-bottom: 10px solid rgb(232, 178, 79);
+}
+.road{
+  height: 40%;
+  width: 100%;
+  background-color: dimgray;  
+  box-sizing: border-box;
+  border-top: 20px solid gray;
+  border-bottom: 20px solid gray;
+}
+.sun{
+    transform: translatex(500px);
+     /* transform: scale(1.5);  */
+    /* transform: rotate(20deg); */
+}
+.line{
+    box-sizing: border-box;
+    border: 5px dashed #fff;
+    height: 0%;
+    width: 100%;
+    position:absolute;
+    top: 45%;
+}
+
+.car{
+
+    position: absolute;
+    top:0px;
+    left: 0px;
+    animation-name: drive;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: (.42,0,.58,1);
+}
+.bike{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    animation-name:drive;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+}
+.man{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    animation-name: walk;
+    animation-duration: 20s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: ; */
+}
+@keyframes drive{
+    from{transform: translatex(20px);}
+    to{transform: translatex(700px);}
+}
+@keyframes walk{
+    from{transform: translatex(20px);}
+    to{transform: translate(300px);}
+}

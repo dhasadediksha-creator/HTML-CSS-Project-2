@@ -1,0 +1,16 @@
+body{
+
+    background-color: rgb(144, 220, 220);
+    text-align: center;
+}
+.wrappear{
+    width:100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+img{
+    /* transform: translatey(-200px,200px) ; */
+    /* transform: scale(1); */
+    /* transform: rotatez(0deg); */
+    transform: translatey(50px) scale(1) rotatez(10deg);
+}

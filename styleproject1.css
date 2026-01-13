@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 20px;
+   overflow: hidden; 
+}
+.parent{
+    height: 5vw;
+    width: 100%;
+    display: flex;
+    /* gap: 10px; */
+    color: white;
+    background-color: black;
+    overflow: hidden;
+    align-items: center;
+    justify-content:space-between ;
+}
+.s-parent{
+    display: flex;
+    gap: 20px;
+    justify-items: flex-start;
+}
+.nav-parent{
+    display: flex;
+    gap: 30px;
+}  
+
+
+.web{
+height: 100%;
+width: 100%;
+display: flex;
+gap: 7px;
+overflow: hidden;
+align-items: center;
+justify-content: space-between;
+}
+.nav-web{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
+    padding: o;
+    list-style: none;
+}
+
+.nav-webs{
+  margin-left: 20px;
+  text-decoration: none;
+  color: rgb(140, 77, 77);
+  font-size: 18px;
+}
+
+.nav-webs:hover{
+    color: rgb(107, 200, 225);
+}
+
+.A-web{
+   display: none;
+  flex-direction: column;
+  cursor: pointer; 
+}
+
+.A-web span{
+  height: 3px;
+  width: 25px;
+  background-color: rgb(125, 38, 38);
+  margin-bottom: 4px;
+  border-radius: 5px;
+}
+
+
+.link{
+    height: 100%;
+    width: 100%;
+
+
+}
+.image-div{
+    background-image: url('https://plus.unsplash.com/premium_photo-1701590725721-add548ecdf61?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&ixlib=rb-4.1.0&q=60&w=3000');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:750px;
+    width:100%;
+    
+    align-items: center;
+    justify-items: center;
+    font-size: 50px; 
+}
+
+.information{
+  align-items: center;
+  justify-items:center;
+  font-size: 20px ;
+
+}
+.content{
+    background-image: url('https://img.lovepik.com/background/20211022/large/lovepik-minimalist-black-background-image_401903751.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1400px;
+    width: 100%;
+    color: black;
+    
+    justify-items: center;
+    
+    
+}
+ .heding{
+    align-items: center;
+    justify-items: center;
+    /* justify-content: space-between;  */
+    color : white;
+}
+.container-div{
+    background-image: url('https://img.freepik.com/free-vector/5g-networking-technology-background-vector-with-blue-digital-line_53876-126043.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    overflow: hidden;
+    
+}
+
+
+
+.min{ 
+    justify-items:flex-start;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.max{
+   align-items: center;
+   justify-items: flex-start;
+
+}
+.color{
+    justify-items: flex-start;
+    align-items: center;
+} 
+.Design{
+    align-items: center;
+    justify-items: center;
+    font-size: 40px;
+}
+ .cell{
+    background-image: url('https://tse1.mm.bing.net/th/id/OIP.lhdvuOLoPigXLIbWkzsPMAHaEK?pid=Api&P=0&h=180');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 40%;
+
+    
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    font-size: 20px;
+    overflow: hidden;
+} 
+
+.box1:hover{
+    background-color: lightblue;
+}
+.box2:hover{
+    background-color: lightblue;
+}
+.box3:hover{
+    background-color: lightblue;
+}
+.box4:hover{
+    background-color: lightblue;
+}
+.box5:hover{
+    background-color: lightblue;
+}
+.box6:hover{
+    background-color: lightblue;
+}
+.box7:hover{
+    background-color: lightblue;
+}
+.box8:hover{
+     background-color: lightblue;
+}
+.album{
+    background-image: url('https://images.ctfassets.net/nnkxuzam4k38/72FI1uoNvyy66AU9lmkxD0/29545557828129fd31864cdd486457f4/white-radial-gradient.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:1400px;
+    width:100%;
+
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+
+.heding2{
+    justify-items: center;
+
+}
+.textsize{
+    height: 100px;
+    box-sizing: border-box;
+    border: 10px;
+    display: flex;
+    gap: 80px;
+    border-radius: 2px solid black;
+
+}
+    
+
+.abc{
+   color: rgb(137, 130, 130);
+   justify-content: center;
+}
+.pqr{
+    color: rgb(140, 137, 137);
+    justify-content: center;
+}
+.xyz{
+    color: rgb(137, 134, 134);
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .parent {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .s-parent {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+  }
+
+  .nav-parent {
+    margin-top: 8px;
+    gap: 15px;
+    justify-content: center;
+    font-size: 16px;
+  }
+
+  .mobile i,
+  .nav-parent i {
+    font-size: 18px;
+  }
+
+  .web {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-web {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    gap: 10px;
+    padding: 10px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-web.show {
+    display: flex;
+  }
+
+  .A-web {
+    display: flex;
+  }
+
+  .nav-webs {
+    font-size: 16px;
+    color: rgb(125, 38, 38);
+  }
+
+  .image-div {
+    height: auto;
+    font-size: 24px;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .information {
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: left;
+  }
+
+  .information div {
+    margin-bottom: 5px;
+  }
+
+  .album {
+        padding: 10px;
+    }
+
+    .heding2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .textsize {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .size1, .size2, .size3 {
+        width: 90%; 
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .size1 img, .size2 img, .size3 img {
+        width: 90%;
+        height: auto;
+    }
+
+    .abc, .pqr, .xyz {
+        font-size: 4px;
+        line-height: 1;
+        padding: 2px;
+    }
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .content {
+    flex-direction: column;  /* stack vertically */
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+  }
+
+  .heding {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .heding h1 {
+    font-size: 28px;
+  }
+
+  .cell {
+    width: 90%;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 20px;
+  }
+
+  .cell input,
+  .cell select,
+  .cell textarea {
+    font-size: 14px;
+  }
+
+  .cell input[type="submit"] {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+    .container-div {
+        flex-direction: column;          /* सर्व div खाली-खाली दिसतील */
+        align-items: center;             /* मध्यभागी align */
+        text-align: center;
+        height: auto;                    /* उंची आपोआप वाढेल */
+        padding: 20px 10px;
+        gap: 25px;
+    }
+
+    .min,
+    .max,
+    .color,
+    .Design {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    .container-div div {
+        font-size: 16px;                /* लहान screen साठी text लहान */
+    }
+
+    .Design {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+
+    .color i,
+    .Design i {
+        font-size: 18px;
+    }
+}
+
+
+ /* @media (max-width: 480px) {
+
+   Top contact bar 
+  .parent {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    gap: 5px;
+    padding: 10px 0;
+  }
+  .s-parent {
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+  }
+  .nav-parent {
+    justify-content: center;
+    gap: 15px;
+  }
+
+   Website header and nav 
+  .web {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .nav-web {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background-color: rgb(216, 195, 237);
+    height: 66vh;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    z-index: 999;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .nav-web.show{
+    display: flex;
+  }
+  .nav-web li {
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 4px 6px;
+  }
+  .A-web{
+    display: flex;
+  }
+  .nav-web img {
+    width: 150px;
+  }
+
+   Hero image section 
+  .image-div {
+    height: auto;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+  }
+  .information {
+    font-size: 14px;
+    padding: 10px;
+    text-align: left;
+  }
+
+   Blog / Album section 
+  .album {
+    height: auto;
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+  }
+  .textsize {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  .textsize img {
+    width: 200px;
+  }
+  .heding2 div {
+    text-align: center;
+  }
+
+   Contact section 
+  .content {
+    flex-direction: column;
+    height: auto;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .heding {
+    font-size: 18px;
+    text-align: center;
+  }
+  .cell {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    padding: 15px;
+  }
+  input, select, textarea {
+    width: 90%;
+    font-size: 16px;
+  }
+  input[type="submit"] {
+    width: 95%;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  Footer section 
+  .container-div {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    gap: 15px;
+    font-size: 16px;
+  }
+  .Design {
+    font-size: 20px;
+  }
+
+   Reduce image & font sizes globally 
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  h1, h2, h3 {
+    font-size: 20px;
+  }
+
+  .box1, .box2, .box3, .box4, .box5, .box6, .box7 {
+    font-size: 16px;
+    padding: 5px;
+  }
+} */
+
+ 
